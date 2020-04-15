@@ -9,4 +9,4 @@ ADD ./target/guestbook-1.2.0-SNAPSHOT.jar /tmp/spring-app.jar
 
 ENTRYPOINT ["java", "-jar", "/tmp/sping-app.jar"]
 
-USER jenkins
+#USER jenkins
