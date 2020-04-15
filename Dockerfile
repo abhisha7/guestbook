@@ -12,6 +12,6 @@ ADD ./target/guestbook-1.2.0-SNAPSHOT.jar /tmp/spring-app.jar
 #COPY *.jar /tmp/sping-app.jar
 RUN chmod +x /tmp/spring-app.jar
 
-ENTRYPOINT ["java", "-jar", "./tmp/sping-app.jar"]
+ENTRYPOINT ["java", "-jar", "./tmp/spring-app.jar"]
 
 #USER jenkins
