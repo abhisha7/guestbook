@@ -1,5 +1,7 @@
 FROM suranagivinod/openjdk8
 WORKDIR /
+
+RUN chown -R root:root /
 #USER root
 #WORKDIR /var/jenkins_home/workspace/maven-job-spring/target/
 #ARG jenkins_jar_file=/root/guestbook-1.2.0-SNAPSHOT.jar
