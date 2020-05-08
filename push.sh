@@ -21,4 +21,4 @@ echo "Pushing image to docker registry"
 
 docker push $REPO:$BUILD_NUMBER
 
-echo "image is pushed to docker hub, image name and tag are: $REPO:$BUILD_NUMBER"
+echo "image is pushed to docker hub and image name and tag are: $REPO:$BUILD_NUMBER"
