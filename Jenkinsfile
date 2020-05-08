@@ -11,6 +11,10 @@ pipeline {
 			}
         }
 		stage('Build') {
+			when {
+        		// skip this stage unless on Master branch
+        			branch "master"
+     			}
 			steps {
 				sh 'mvn -B -DskipTests clean package'
 				
